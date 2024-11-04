@@ -13,6 +13,7 @@ def main():
     hm.remove("name")
 
     print(hm, len(hm))
+    print(hm.get("height"))
 
 
 if __name__ == "__main__":
